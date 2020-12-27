@@ -3,18 +3,22 @@ import SideBar from "../components/sideBar";
 
 const Home = () => {
 
+    return (<>
+        <div style={styles.container}>
+            <SideBar/>
 
-    return (
-<div className={"HomeContainer"} style={{styles}}>
-<SideBar/>
-</div>
-    )
+        </div>
+    </>)
 }
 
 const styles = {
-    flexDirection: "row"
+    container: {
+        flexDirection: "row",
+        display: 'flex',
+        height: "100vh",
+        width: "100vw"
+    }
+
 
 }
-
-
-export default Home;
+export default Home
