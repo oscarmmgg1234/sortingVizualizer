@@ -1,12 +1,13 @@
 import React from 'react'
 import SideBar from "../components/sideBar";
+import MagicCanvas from "../components/magicCanvas";
 
 const Home = () => {
 
     return (<>
         <div style={styles.container}>
             <SideBar/>
-
+            <MagicCanvas/>
         </div>
     </>)
 }
